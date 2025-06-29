@@ -36,3 +36,37 @@ console.log(typeof scoreValue);
 console.log(typeof myFunction);
 console.log(typeof heros);
 console.log(typeof anotherId);
+
+
+
+
+/*''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''*/
+
+// stack and heap 
+
+// stack == premitive
+// heap == non premitive
+
+
+let myName = "radhe"
+
+let anothername = myName
+anothername = "shyam"
+
+console.log(myName);
+console.log(anothername);
+
+
+let userOne = {
+    email: "user@gmail.com"
+ 
+}
+
+let userTwo = userOne
+
+userTwo.email = "radhe@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
